@@ -21,6 +21,9 @@ const SCREEN_WIDTH = Dimensions.get('screen').width
                 <Text style={{padding:10}}>Aparições em séries : {hero.series.available}</Text>
                 <Text style={{padding:10}}>Aparições em Histórias : {hero.stories.available}</Text>    
                 
+                <Text style={{padding:10}}>Aparições em séries : {hero.series.available}</Text>
+                <Text style={{padding:10}}>Aparições em Histórias : {hero.stories.available}</Text>    
+                
                      
             </ScrollView>
           </SafeAreaView>

@@ -41,7 +41,7 @@ export default class Home extends React.PureComponent {
             <FlatList 
                 data={this.state.data}
                 renderItem={this._renderItem}
-                keyExtractor={(item) => item.id}
+                keyExtractor={item => item.id.toString()}
                 ItemSeparatorComponent={()=>
                     <View style={{height:1, backgroundColor: '#f7f7f7'}} 
                 />}
